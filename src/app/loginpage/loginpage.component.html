@@ -1,0 +1,32 @@
+<!-- <div class="mainDiv">
+  <div class="backgroundOverlay">
+    <div class="mainBox">
+      <div class="loginBox">
+        <form [formGroup]="loginForm" (submit)="onSubmit()" novalidate autocomplete="off">
+          <h1>Login</h1>
+          <input type="text" formControlName="email" placeholder="Email">
+          <div class="col-sm-12 text-dangerRed" *ngIf="!loginForm.get('email').valid && loginForm.get('email').touched">
+            <span *ngIf="email.errors?.required">
+              Please enter Email.
+            </span>
+          </div>
+          <input type="password" formControlName="password" placeholder="Password" autocomplete="new-password">
+          <div class="text-dangerRed" *ngIf="!loginForm.get('password').valid && loginForm.get('password').touched">
+            <span *ngIf="password.errors?.required">
+              Please enter Password.
+            </span>
+          </div>
+          <div *ngIf="validateError!=''">
+            <div class="text-dangerRed">
+              {{validateError}}
+            </div>
+          </div>
+          <button type="submit" class="button">Login</button>
+        </form>
+      </div>
+      <div class="signup">
+        <p> If you are a new User <a (click)="goToSignUp()">signUp</a> to continue</p>
+      </div>
+    </div>
+  </div>
+</div> -->

@@ -1,0 +1,49 @@
+.button {
+    color:white;
+    float:right;
+    background-color: #8958a3;
+    grid-gap: 10px 20px;
+}
+.button:hover{
+    background-color: #4d1e66;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #8958a3;
+   
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:purple;
+}
+.fi {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color:8958a3;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.active, .fi:hover {
+    background-color:purple;
+    
+    
+}

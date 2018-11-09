@@ -1,0 +1,113 @@
+.mainDiv {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    /* background: url(../../../assets/images/login.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.backgroundOverlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, .1);
+}
+
+.mainBox {
+    position: absolute;
+    left: 10%;
+    right: 50%;
+    top: 30%;
+    bottom: 30%;
+    margin: auto;
+}
+
+.loginBox {
+    height: auto;
+    width: 350px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    transition: .5s;
+}
+
+input:focus {
+    box-shadow: 1px 1px 10px #28AFF6;
+}
+
+.button {
+    margin-left: calc(50% - 50px);
+    width: 100px;
+    height: 40px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    background-color: #28AFF6;
+    font-size: 15px;
+    outline: none;
+    transition: .5s;
+}
+
+.button:hover {
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.text-dangerRed {
+    margin-top: -15px;
+    margin-bottom: 10px;
+    float: right;
+    font-size: 13px;
+    color: red;
+}
+
+.signup {
+    margin-top: 10px;
+    width: 350px;
+    color: #fff;
+}
+
+.signup a {
+    color: black;
+    cursor: pointer;
+    transition: .5;
+}
+
+.signup a:hover {
+    text-shadow: 1px 1px 2px black;
+}
+
+/* Responsive  */
+
+@media only screen and (max-width: 800px) {
+    .loginBox {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .loginBox,
+    .signup {
+        width: 250px;
+    }
+}
